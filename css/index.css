@@ -17,7 +17,9 @@ body {
     height: 100%;
     background-color: #222222;
 }
-
+*{
+    
+}
 /*
 .FirstScreen,
 .block_header,
@@ -69,16 +71,20 @@ ul {
     margin-right: 80px;
     margin-bottom: 3px;
     background-color: #222222;
+    
+    
 }
 
 .Section_header {
-    width: 1120px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: 111px;
     margin-top: 17px;
-    margin-left: 80px;
-    margin-right: 80px;
     margin-bottom: 17px;
-    background-color: #222222
+    background-color: #222222;
+  
+    
 }
 
 .block_header flex-Hmm {
@@ -96,6 +102,7 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: #222222;
+    justify-content: center;
 
 }
 
@@ -327,7 +334,6 @@ ul {
 .Kampaniya {}
 
 .MЭin {
-    background-color:
 }
 
 .Dich {
